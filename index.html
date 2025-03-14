@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 id="mainHeading">OMDB Movie Search Application</h1>
+    <div id="inputContainer">
+      <input type="text" id="searchInput" placeholder="Search for a movie..." />
+      <!-- <button onclick="load_Local_Movies()">Search</button> -->
+      <div id="suggestions"></div>
+    </div>
+    <div id="Movies_Container">sdfghj</div>
+    <!-- Movie Detail Popup -->
+    <div id="moviePopup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <div id="popupDetails"></div>
+      </div>
+    </div>
+
+    <div class="pagination" id="pagination">
+      <button id="prevBtn">Previous</button>
+      <span id="pageNumber">Page 1</span>
+      <button id="nextBtn">Next</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
